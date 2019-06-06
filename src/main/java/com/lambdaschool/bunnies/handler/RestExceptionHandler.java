@@ -60,4 +60,5 @@ public class RestExceptionHandler extends ResponseEntityExceptionHandler
 
 		return new ResponseEntity<>(errorDetail, null, HttpStatus.NOT_FOUND);
 	}
+
 }
